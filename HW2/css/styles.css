@@ -1,0 +1,120 @@
+@font-face {
+    font-family: "BPG Nino Mtavruli";
+    src: url(fonts/bpg_nino_mtavruli_normal.otf) format("opentype");
+    src: url(fonts/bpg_nino_mtavruli_bold.otf) format("opentype"),
+        url(fonts/bpg_nino_mtavruli_book.ttf) format("truetype");
+}
+
+/* ნევიგაცია */
+
+.inline{
+    margin: 30px;
+    padding: 0px;
+    list-style: none;
+}
+.inline li{
+    padding-right: 30px;
+    display: inline;
+}
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 100px;
+    margin-right: 40px;
+}
+.menu li{
+    display:table-cell;
+    vertical-align: bottom;
+}
+.menu li a{
+    text-decoration: none;
+    font-family: 'BPG Nino Mtavruli';
+    font-weight: bold;
+    font-size: 22px;
+    color: #3D58A6;
+}
+#onpage{
+    color: #EE4036;
+}
+.menu li a:hover{
+    color: #EE4036;
+}
+.margin-left{
+    margin-left: 30px;
+}
+
+
+/* ქავერ სექცია */
+
+.cover{ 
+    position: relative; 
+    width: 100%;
+    margin-bottom: 120px;
+ }
+.over-cover{
+    font-family: 'BPG Nino Mtavruli';
+    font-weight: lighter;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 150px;
+    left: 30px;
+}
+
+
+/* შესაძლებლობების სექცია */
+
+.featured-header{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    color: black;
+    margin-bottom: 30px;
+}
+.features{
+    width: 1170px;
+    overflow: hidden;
+    margin-bottom: 90px;
+}
+.roboto{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+.feature-1{
+    float: left;
+}
+.feature-2{
+    float: right;
+}
+.featured{
+    background-color: #F2F2F2;
+    width: 570px;
+    padding-bottom: 30px;
+}
+.featured h2{
+    margin-left: 15px;
+    color: #3D58A6;
+}
+.top-align{
+    vertical-align: top;
+}
+.featured-images{
+    display: inline-block;
+    height: 130px;
+    margin-left: 30px;
+}
+.featured-content{
+    display: inline-block;
+    font-size: 20px;
+    color: #333333;
+    width: 355px;
+    height: 130px;
+    padding-left: 30px;
+}
+
+
+/* ფუთერი */
+
+ .social {
+    height: 30px;
+} 
