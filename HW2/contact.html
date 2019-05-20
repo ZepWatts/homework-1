@@ -30,7 +30,34 @@
     </section>
 
     <body>
+        <div class="contact-back">
+            <div class="contact-info top-align">
+                <span class="title">საკონტაქტო ინფორმაცია:</span><br>
+                <span class="grey">მისამართი:</span> პეტრიაშვილის ქ. 30<br>
+                <span class="grey">ტელ.:</span> +995 32 222 222<br>
+                <span class="grey">ელ. ფოსტა:</span> mail@gmail.com <br>
+            </div>
+
         
+
+                <!--The div element for the map -->
+                <div id="map" class="top-align"></div>
+                <script>
+            // Initialize and add the map
+            function initMap() {
+              // The location of Uluru
+              var uluru = {lat: 41.710892, lng: 44.762166};
+              // The map, centered at Uluru
+              var map = new google.maps.Map(
+                  document.getElementById('map'), {zoom: 4, center: uluru});
+              // The marker, positioned at Uluru
+              var marker = new google.maps.Marker({position: uluru, map: map});
+            }
+                </script>
+                <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHWcg-uGb4hLLMj28hwLlLtCSgC7o1g3M&callback=initMap">
+                </script>
+        </div>
     </body>
     <footer>
         <ul class="inline fetured">
